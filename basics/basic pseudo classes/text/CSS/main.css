@@ -1,0 +1,72 @@
+#first-letter p:first-letter{
+	color: red;
+	font-weight: bold;
+	font-size: 48px;
+}
+
+#first-line p:first-line{
+	color: green;
+	font-weight: wider;
+	font-size: 32px;
+}
+
+#first_number li:first-child{
+	color: yellow;
+	font-weight: wider;
+	font-size: 32px;
+}
+
+#last_number li:last-child{
+	color: yellow;
+	font-weight: wider;
+	font-size: 32px;
+}
+
+#before p:before{
+	content: "(example-content)";
+	color: green;
+	font-weight: bold;
+}
+
+#after p:after{
+	content: "(example-content)";
+	color: green;
+	font-weight: bold;
+}
+
+#even li:nth-child(even)
+{
+	color: brown;
+	font-size: 48px;
+}
+
+#odd p:nth-child(odd)
+{
+	color: red;
+	font-size: 12px;
+}
+
+#the_3rd li:nth-child(3){
+	color: green;
+	font-size: 32px;
+	text-decoration: underline;
+}
+
+
+#every_3rd li:nth-child(3n){
+	color: blue;
+	font-size: 32px;
+	text-decoration: underline;
+}
+
+#first-letter_of_every_2nd li:first-letter:nth-child(2n){
+	color: blue;
+	font-size: 32px;
+	text-decoration: underline;
+}
+
+span{
+	color: cyan;
+	font-weight: bold;
+	font-size: 32px;
+}

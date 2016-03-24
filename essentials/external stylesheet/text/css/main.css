@@ -1,0 +1,11 @@
+p{
+  color:blue;
+  font: bold italic 24px tahoma;
+  
+  /* seperate definement
+  font-weight:bold;
+  font-style:italic;
+  font-size:24px
+  font-family:Tahoma;;
+  */
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> forms </title>
+    <meta charset="utf-8"/>
+</head>
+
+<body>
+<p><a href="../basics.html"><h1><em> basics </em></h1></a></p>
+<h1><u> <em> forms </em> </u></h1>
+
+<h1> text, password </h1>
+
+<form action="" method="get">
+    username: <input type="text" name="username" size="20"/>
+    <br/> <br/>
+    password: <input type="password" name="password" size="20"/>
+
+    <br/>
+
+    <h1> select lists </h1>
+
+    Choose a color:
+    <select name="option list">
+        <option value="red"> red</option>
+        <option value="green"> green</option>
+        <option value="red"> blue</option>
+        <option value="yellow" selected="selected"> yellow</option>
+    </select>
+
+    <br/> <br/>
+    Choose a color:
+    <select name="option list" multiple size="10">
+        <optgroup label="RGB">
+            <option value="red"> red</option>
+            <option value="green"> green</option>
+            <option value="red"> blue</option>
+            <option value="yellow" selected="selected"> yellow</option>
+            <option value="red"> red</option>
+        </optgroup>
+
+        <optgroup label="BGR">
+            <option value="green"> green</option>
+            <option value="red"> blue</option>
+            <option value="yellow" selected="selected"> yellow</option>
+            <option value="red"> red</option>
+            <option value="green"> green</option>
+        </optgroup>
+
+        <optgroup label="GBR">
+            <option value="green"> green</option>
+            <option value="red"> blue</option>
+            <option value="yellow" selected="selected"> yellow</option>
+            <option value="red">red</option>
+            <option value="green">green</option>
+        </optgroup>
+
+        <optgroup label="GRB">
+            <option value="green"> green</option>
+            <option value="red"> blue</option>
+            <option value="yellow" selected="selected"> yellow</option>
+            <option value="red"> red</option>
+            <option value="green"> green</option>
+        </optgroup>
+    </select>
+
+    <br/>
+
+    <h1> checkboxes </h1>
+
+    Who's gonna make the top 3 next major? <br>
+    EnvyUs <input type="checkbox" name="major_winner" value="envyus"/>
+    fnatic <input type="checkbox" name="major_winner" value="fnatic" checked="checked"/>
+    Astralis <input type="checkbox" name="major_winner" value="astralis"/>
+
+    <h1> radio buttons </h1>
+
+    Allow cookies for this page? <br>
+    Yes <input type="radio" name="allow_cookies" value="yes">
+    No <input type="radio" name="allow_cookies" value="no" checked="checked">
+
+    <h1> text area </h1>
+    <!-- rows cols would usally be set in css-->
+    <textarea name="story" rows="5" cols="40"> write text here... </textarea>
+
+    <h1> buttons </h1>
+
+    <input type="file"/> &nbsp;
+    <input type="submit" value="submit">
+    &nbsp; &nbsp; &nbsp; &nbsp;
+    <input type="reset" value="reset"/>
+</form>
+</body>
+</html>

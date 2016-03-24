@@ -1,0 +1,21 @@
+p{
+	font-size: 48px;
+	color: yellow;
+}
+
+.A p{
+	color: blue;
+	text-decoration: overline;
+	font-size: 64px;
+}
+
+#B p{
+	color: red;
+	text-decoration: underline;
+	font-size: 32px;
+}
+
+span{
+	color: black;
+	font-weight: bold;
+}

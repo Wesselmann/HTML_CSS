@@ -1,0 +1,26 @@
+h2{
+	background-color:blue;
+	margin: 30px 50px 0px 50px;
+	padding: 10px 30px;
+	margin: 30px 200px 0px 200px;
+	border: 10px ridge grey;
+}
+
+h3{
+	color: white;
+	background-color: black;
+	margin: 10px 20px 60px 20px;
+	padding: 10px 30px;
+	margin: 30px 200px 0px 200px;
+	border: 30px groove green;
+}
+
+h4{
+	background-color: white;
+	padding: 0px 0px;
+	margin: 30px 200px 0px 200px;
+	border-top: 10px dashed red;
+	border-left: 30px solid green;
+	border-right: 5px outset yellow;
+	border-bottom: 80px dotted magenta;
+}

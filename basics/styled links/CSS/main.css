@@ -1,0 +1,25 @@
+a#styled_link{
+	color: red;
+	font-size: 32px;
+	text-decoration: none;
+}
+
+a#styled_link:hover{
+	color: orange;
+	font-size: 48px;
+	text-decoration: underline;
+	font-family: arial;
+	font-weight: bold;
+}
+
+a#styled_link:active{
+	color: pink;
+	font-size: 62px;
+	text-decoration: none;
+}
+
+a#styled_link:visited{
+	color: green;
+	font-size: 48px;
+	font-family: tahoma;
+}

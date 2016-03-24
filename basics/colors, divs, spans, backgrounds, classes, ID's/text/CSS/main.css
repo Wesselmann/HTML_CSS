@@ -1,0 +1,72 @@
+body{
+	
+	background-image: url(../../img/Astronaut_1920x1080.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-size: 32px;
+}
+
+h2{
+	color: white;
+	border: 10px dashed white;
+}
+
+h3{
+	color:rgb(125,25,132);
+}
+
+div{
+	color: blue;
+	font-size: 64px;
+	margin: 0px 30%;
+	padding: 10px 10px;
+	border: 5px dotted blue;
+	width: 750px;
+	height: 400px;
+	background-image: url(../../img/small_image.jpg);
+	background-position: top right;
+}
+
+#upper {
+	color: black;
+	font-size: 32px;
+	margin: 200px 30%;
+	background-color: white;
+	border: 5px outset red;
+	width: 750px;
+	height: 400px;
+	background-image: url(../../img/small_image.jpg);
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+
+
+
+#A{ 
+	color:rgb(125,25,132);
+	text-decoration: underline;
+}
+
+#B{
+	color:rgb(125,25,132);
+	text-decoration: overline;
+}
+
+.line-through
+{
+	color:rgb(125,25,132);
+	text-decoration: line-through;
+}
+
+.blink
+{
+	color:rgb(125,25,132);
+	text-decoration: blink; /* not working in chrome so far */
+	/* possible solution
+	-webkit-animation-name: blink; 
+	-webkit-animation-iteration-count: infinite; 
+	-webkit-animation-timing-function: cubic-bezier(1.0,0,0,1.0);
+	-webkit-animation-duration: 1s;
+	*/
+}
+     

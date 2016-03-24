@@ -1,0 +1,38 @@
+span {
+	font-family: tahoma;
+	font-size: 24px;
+	font-weight: bold;
+	color: cyan;
+}
+
+ul.none{
+	list-style-type: none;
+}
+
+ul.circle{
+	list-style-type: circle;
+}
+
+ul.square{
+	list-style-type: square;
+}
+
+ul.upper-roman{
+	list-style-type: upper-roman;
+}
+
+ul.decimal{
+	list-style-type: decimal;
+}
+
+ul.lower-greek{
+	list-style-type: lower-greek;
+}
+
+ul.katakana{
+	list-style-type: katakana;
+}
+
+ul.image_list_arrow_toRight{
+	list-style-image: url(../img/list_arrow_toRight.png);
+}

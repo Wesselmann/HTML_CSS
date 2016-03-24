@@ -1,0 +1,97 @@
+body {
+    background-image: url(../img/hd-wallpaper-17.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-color: rgb(68, 96, 115);
+    color: white;
+}
+
+#boxes {
+    width: 1080px;
+    margin: 8% auto;
+}
+
+.boxTR {
+    font-size: 64px;
+    text-align: center;
+    line-height: 200px;
+    color: white;
+    width: 500px;
+    height: 200px;
+    background-image: linear-gradient(to top, white 3%, rgb(68, 96, 115));
+    margin: 0px 0px 0px 40px;
+}
+
+.boxTL {
+    font-size: 64px;
+    text-align: center;
+    line-height: 200px;
+    color: white;
+    width: 500px;
+    height: 200px;
+    background-image: linear-gradient(to top, white 3%, rgb(68, 96, 115));
+    margin: 0px 40px 0px 0px;
+}
+
+.boxBR {
+    font-size: 64px;
+    text-align: center;
+    line-height: 200px;
+    color: white;
+    width: 500px;
+    height: 200px;
+    background-image: linear-gradient(to top, rgb(68, 96, 115), white 97%);
+    margin: 0px 0px 0px 40px;
+}
+
+.boxBL {
+    font-size: 64px;
+    text-align: center;
+    line-height: 200px;
+    color: white;
+    width: 500px;
+    height: 200px;
+    background-image: linear-gradient(to top, rgb(68, 96, 115), white 97%);
+    margin: 0px 40px 0px 0px;
+}
+
+.boxCENTER {
+    font-size: 32px;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(circle, rgb(68, 96, 115), white 65%);
+    margin: 0px 0px 0px 45%;
+}
+
+.top_right_radius {
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 200px;
+    float: left;
+}
+
+.top_left_radius {
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 200px;
+    float: left;
+}
+
+.bottom_right_radius {
+    border-bottom-right-radius: 40px;
+    border-top-left-radius: 200px;
+    float: left;
+}
+
+.bottom_left_radius {
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 200px;
+    float: left;
+}
+
+.center_radius {
+    border-radius: 50%;
+    clear: left;
+}
+

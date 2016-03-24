@@ -1,0 +1,162 @@
+span {
+	font-family: tahoma;
+	font-size: 24px;
+	font-weight: bold;
+	color: cyan;
+}
+
+#styled {
+	border: 5px ridge green;
+	border-collapse: collapse;
+	font-size: 20px;
+}
+
+#styled th, #styled td{
+	border: 3px ridge black;
+	padding: 7px;
+}
+
+#styled tr:nth-child(2n){
+	background-color: #888888;
+}
+
+#styled thead{
+	background-color: #10eeee;
+}
+
+#styled tfoot{
+	background-color: #eeee10;
+	text-align: center;
+	font-family: tahoma;
+}
+
+#styled2 {
+	border: 5px ridge green;
+	border-collapse: collapse;
+	font-size: 20px;
+	text-align: center;
+}
+
+#styled2 thead tr:last-child(1){
+ background-color: green;
+}
+
+#styled2 thead{
+	font-size: 32px;
+	background-color: #123456;
+}
+
+#styled2 tfoot{
+	font-size: 64px;
+}
+
+
+#styled2 td{
+	border: 5px ridge pink;
+	padding: 7px;
+}
+
+#styled2 td:last-child{
+	background-color: #10eeee;
+}
+
+#styled2 tr:nth-child(2n){
+	background-color: #888888;
+}
+
+#styled2 tr:nth-child(-n+1) {
+    color: red;   
+}	
+
+#styled2 td:nth-child(n+8) {
+    color: magenta;   
+}
+
+.third td:nth-child(2n){
+	background-color: red;
+}
+
+.sixth td:nth-child(2n){
+	background-color: red;
+}	
+
+.ninth td:nth-child(2n){
+	background-color: red;
+}	
+
+.seventh{
+	font-size: 48px;
+}
+
+.seventh td:nth-child(6){
+	font-size: 32px;
+	background-image: url(../images/image.jpg);
+}
+
+.seventh td:nth-child(8){
+	font-size: 20px;
+	color: white;
+	background-color: black;
+}
+
+.ninth td:first-child{
+	font-size: 128px;
+	font-family: Impact;
+}
+
+
+/* vertical line */
+#styled2 td:nth-child(4)
+{
+	background-color: blue;
+}
+
+/* diagonal line */
+#styled2 thead td:last-child{
+	background-color: green;
+}
+
+.first td:nth-last-child(2) {
+   background-color: green;
+}
+
+.second td:nth-last-child(3) {
+   background-color: green;
+}
+
+.third td:nth-last-child(4) {
+   background-color: green;
+}
+
+.fourth td:nth-last-child(5) {
+   background-color: green;
+}
+
+.fifth td:nth-last-child(6) {
+   background-color: green;
+}
+
+.sixth td:nth-child(6) {
+   background-color: green;
+}
+
+.seventh td:nth-child(5)  {
+   background-color: green;
+}
+
+.eighth td:nth-child(4) {
+   background-color: green;
+}
+
+.ninth td:nth-child(3)  {
+   background-color: green;
+}
+
+.tenth td:nth-child(2) {
+   background-color: green;
+}
+#styled2 tfoot td:first-child{
+	background-color: green;
+}
+
+

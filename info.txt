@@ -1,0 +1,19 @@
+<p> <a href = "../basics.html"> <h1> <em> <u> basics </u> </em> </h1> </a> </p>
+<h1> <u> <em>  </em> </u> <h1>
+
+font: bold italic 24px tahoma;
+
+margin/padding: top right bottom left;
+margin/padding: top&bottom right&left;
+
+border: size style color;
+border-style: dotted, dashed, solid, double, groove, ridge, inset, outset.
+
+vertikales centern position: absolute;  top: 50%; transform: translate(-50%, -50%);
+   
+special gardients: http://www.w3schools.com/css/css3_gradients.asp
+
+
+nth-child: https://css-tricks.com/useful-nth-child-recipies/
+
+Input-type: http://www.w3schools.com/html/html_form_input_types.asp
